@@ -17,7 +17,7 @@
 <strong>Nombre y apellidos: Pablo Martínez Pavón</strong>
 </div>
 
-## Visualización 1. Pie Chart
+## Visualización 1.
 
 ### Nombre: 
 Pie Chart- Gráfico circular
@@ -31,11 +31,11 @@ Es un gráfico estadístico circular, que se divide en porciones para ilustrar u
 ### Ejemplos:
 1. Playfair presentó una ilustración que contenía una serie de gráficos circulares. Uno de esos gráficos representaba las proporciones del Imperio Turco ubicado en Asia, Europa y África antes de 1789.
 
-![imagen](https://user-images.githubusercontent.com/77053851/163562277-ed4fd727-e8db-4631-a936-285daeebbddf.png | width=100)
+![imagen](https://user-images.githubusercontent.com/77053851/163562277-ed4fd727-e8db-4631-a936-285daeebbddf.png)
 
 2. El ingeniero francés Charles Joseph Minard también usó gráficos circulares en 1858. Un mapa suyo de 1858 usó gráficos circulares para representar el ganado enviado desde toda Francia para el consumo en París.
 
-![imagen](https://user-images.githubusercontent.com/77053851/163562337-c27fe23d-89e1-4253-b6d7-924cca6cbf1b.png | width=100)
+![imagen](https://user-images.githubusercontent.com/77053851/163562337-c27fe23d-89e1-4253-b6d7-924cca6cbf1b.png)
 
 ### Tipo de datos y estructura: 
 Sirve para mostrar el número de ocurrencias de cada nivel de una variable, por lo tanto se trata de una variable categórica. Los datos deberían tener forma de una tabla de frecuencias absolutas o relativas.
@@ -47,9 +47,9 @@ La principal limitación a la hora de usarla es el número de clases y su porcen
 1. [Wikipedia](https://en.wikipedia.org/wiki/Pie_chart)
 2. [Data to Viz](https://www.data-to-viz.com/caveat/pie.html)
 
-## Visualización 2. Alluvial Diagram
+## Visualización 2.
 
-### Nombre:
+### Nombre: Alluvial Diagram
 
 ### Origen:
 
@@ -60,6 +60,11 @@ La principal limitación a la hora de usarla es el número de clases y su porcen
 ### Tipo de datos y estructura:
 
 ### Limitaciones:
+
+### Fuente:
+1. [Wikipedia](https://en.wikipedia.org/wiki/Alluvial_diagram)
+2. [Data to Viz](https://www.data-to-viz.com/graph/sankey.html)
+3. [Data Viz Project](https://datavizproject.com/data-type/alluvial-diagram/)
 
 
 ## Visualización 3. Raincloud plot
