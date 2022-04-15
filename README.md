@@ -30,8 +30,11 @@ Es un gráfico estadístico circular, que se divide en porciones para ilustrar u
 
 ### Ejemplos:
 1. Playfair presentó una ilustración que contenía una serie de gráficos circulares. Uno de esos gráficos representaba las proporciones del Imperio Turco ubicado en Asia, Europa y África antes de 1789.
+
 ![imagen](https://user-images.githubusercontent.com/77053851/163562277-ed4fd727-e8db-4631-a936-285daeebbddf.png | width=100)
+
 2. El ingeniero francés Charles Joseph Minard también usó gráficos circulares en 1858. Un mapa suyo de 1858 usó gráficos circulares para representar el ganado enviado desde toda Francia para el consumo en París.
+
 ![imagen](https://user-images.githubusercontent.com/77053851/163562337-c27fe23d-89e1-4253-b6d7-924cca6cbf1b.png | width=100)
 
 ### Tipo de datos y estructura: 
