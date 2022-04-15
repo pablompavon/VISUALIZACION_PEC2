@@ -47,20 +47,22 @@ La principal limitación a la hora de usarla es el número de clases y su porcen
 1. [Wikipedia](https://en.wikipedia.org/wiki/Pie_chart)
 2. [Data to Viz](https://www.data-to-viz.com/caveat/pie.html)
 
-## Visualización 2.
+## Visualización 2
 
 ### Nombre:
 Alluvial Diagram
 
 ### Origen:
-Según las fuentes consultadas, son una subcategoría de los diagramas de Sankey Los diagramas de Sankey llevan el nombre del capitán irlandés Matthew Henry Phineas Riall Sankey, quien utilizó este tipo de diagrama en 1898 en una figura clásica que mostraba la eficiencia energética de una máquina de vapor.
+Según las fuentes consultadas, son una subcategoría de los diagramas de Sankey. Los diagramas de Sankey llevan el nombre del capitán irlandés Matthew Henry Phineas Riall Sankey, quien utilizó este tipo de diagrama en 1898 en una figura clásica que mostraba la eficiencia energética de una máquina de vapor.
 
 ### Descripción y funcionamiento:
 Son un tipo de diagrama de flujo desarrollado originalmente para representar cambios en la estructura de una red a lo largo del tiempo. En alusión tanto a su apariencia visual como a su énfasis en el flujo, los diagramas aluviales llevan el nombre de abanicos aluviales que se forman naturalmente por el suelo depositado por las corrientes de agua. Sirven para analizar una evolución o hacer un seguimiento de un flujo desde su origen a su final.
 En un diagrama aluvial, los bloques representan grupos de nodos y los campos de arroyos entre los bloques representan cambios en la composición de estos grupos a lo largo del tiempo. La altura de un bloque representa el tamaño del grupo y la altura de un campo de flujo representa el tamaño de los componentes contenidos en ambos bloques conectados por el campo de flujo.
 
+Las variables se asignan a ejes verticales que son paralelos. Los valores se representan con bloques en cada eje. La altura de un bloque representa el tamaño del grupo y la altura de un campo de flujo representa el tamaño de los componentes contenidos en ambos bloques conectados por el campo de flujo.
+
 ### Ejemplos:
-1. Diagrama de Sankey original
+1. Diagrama de Sankey original.
 
 ![imagen](https://user-images.githubusercontent.com/77053851/163563412-ee5f3ac7-9b87-4fb8-b620-376e16b92d7e.png)
 
@@ -76,6 +78,8 @@ En un diagrama aluvial, los bloques representan grupos de nodos y los campos de 
 Con el tiempo, se convirtió en un modelo estándar utilizado en ciencia e ingeniería para representar el balance de calor, los flujos de energía, los flujos de materiales y, desde la década de 1990, este modelo visual se ha utilizado en la evaluación del ciclo de vida de los productos.
 
 ### Limitaciones:
+La posición de los nodos es muy importante: existen algoritmos para minimizar el número de cruces entre enlaces.
+El desorden excesivo hace que la figura sea ilegible. Se recomienda descartar las conexiones débiles.
 
 ### Fuente:
 1. [Wikipedia](https://en.wikipedia.org/wiki/Alluvial_diagram)
