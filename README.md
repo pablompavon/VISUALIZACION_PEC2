@@ -19,18 +19,25 @@
 
 ## Visualización 1. Pie Chart
 
-### Nombre:
+### Nombre: Pie Chart- Gráfico circular
 
-### Origen:
+### Origen: El gráfico circular más antiguo conocido generalmente se atribuye al Breviario estadístico de William Playfair de 1801, en el que se utilizan dos gráficos de este tipo. Este invento no fue muy utilizado al principio. Posteriormente Florence Nightingale lo adaptó para hacerlo más legible, reconfiguró el gráfico circular haciendo que la longitud de las cuñas fuera variable en lugar de su ancho. Esto fomentó su amplio uso, aún hoy.
 
-### Descripción y funcionamiento:
+### Descripción y funcionamiento: Es un gráfico estadístico circular, que se divide en porciones para ilustrar una proporción numérica. En un gráfico circular, la longitud del arco de cada sector (y, en consecuencia, su ángulo central y su área) es proporcional a la cantidad que representa. 
 
 ### Ejemplos:
 
-### Tipo de datos y estructura:
+1. Playfair presentó una ilustración que contenía una serie de gráficos circulares. Uno de esos gráficos representaba las proporciones del Imperio Turco ubicado en Asia, Europa y África antes de 1789.
+2. El ingeniero francés Charles Joseph Minard también usó gráficos circulares en 1858. Un mapa suyo de 1858 usó gráficos circulares para representar el ganado enviado desde toda Francia para el consumo en París.
 
-### Limitaciones:
+### Tipo de datos y estructura: Sirve para mostrar el número de ocurrencias de cada nivel de una variable, por lo tanto se trata de una variable categórica. Los datos deberían tener forma de una tabla de frecuencias absolutas o relativas.
 
+### Limitaciones: La principal limitación a la hora de usarla es el número de clases y su porcentaje, si hay muchas clases no se distinguirán todas correctamente; o si hay alguna muy pequeña esta en muchos casos no se verá correctamente.
+
+### Fuente:
+
+1. [Wikipedia](https://en.wikipedia.org/wiki/Pie_chart)
+2. [Data to Viz](https://www.data-to-viz.com/caveat/pie.html)
 
 ## Visualización 2. Alluvial Diagram
 
