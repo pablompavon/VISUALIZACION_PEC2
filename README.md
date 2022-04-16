@@ -87,16 +87,38 @@ El desorden excesivo hace que la figura sea ilegible. Se recomienda descartar la
 3. [Data Viz Project](https://datavizproject.com/data-type/alluvial-diagram/)
 
 
-## Visualización 3. Raincloud plot
+## Visualización 3
 
 ### Nombre:
+Raincloud plot
 
 ### Origen:
+Se trata de una combinación de gráficos que existían previamente, por lo tanto su origen no está claro. El paper principal es muy reciente, del año 2019 y revisado en 2021, y se cita en las fuentes empleadas; aunque en él citan ejemplos similares anteriores
+
+Nace de la necesidad de disponer de visualizaciones que transmitan de manera precisa y transparente los aspectos clave de los efectos estadísticos y los datos sin procesar con una distorsión mínima. Los enfoques anteriores, como trazar diagramas de barras de mediana o media condicional junto con barras de error, han sido criticados por distorsionar el tamaño del efecto, ocultar patrones subyacentes en los datos sin procesar y oscurecer los supuestos en los que se basan las pruebas estadísticas más utilizadas. Esto es un enfoque de visualización de datos que supera estos problemas, brindando la máxima información estadística y preservando la naturaleza deseada de "inferencia de un vistazo" de los diagramas de barras y otros dispositivos de visualización similares. 
 
 ### Descripción y funcionamiento:
+Estos gráficos permiten  visualizar datos sin procesar, densidad de probabilidad y estadísticas de resumen clave, como la mediana, la media y los intervalos de confianza relevantes en un formato atractivo y flexible con redundancia mínima. De una manera sencilla, se observa la curva de distribución y complementariamente se ve la distribución real de los puntos. Se emplea jittering, que es el acto de agregar ruido aleatorio a los datos para evitar el overplotting en gráficos estadísticos, para lograr una visión clara de los datos. Además puede acompañarse de un boxplot.
 
 ### Ejemplos:
 
+1. Pueden revelar información que incluso un diagrama de caja más datos sin procesar podría ocultar, como una distribución bimodal que puede no ser fácilmente "observada" desde los puntos de datos sin procesar.
+
+![imagen](https://user-images.githubusercontent.com/77053851/163671381-7e924264-11b1-49c5-96e6-13037b603004.png)
+
+2. 
+
+![imagen](https://user-images.githubusercontent.com/77053851/163671556-4e703c09-51a1-4c0c-8854-a4972865de3c.png)
+
+
+
 ### Tipo de datos y estructura:
+En principio, este gráfico está pensado para datos cuantitativos (numéricos continuos), sin embargo como ocurre para otras técnicas se puede apoyar en datos cuantitativos para demostrar el comportamiento estadístico de una variable cuantitativa diferenciando para cada nivel de una variable cuantitativa.
 
 ### Limitaciones:
+
+
+### Fuente:
+1. [Paper](https://wellcomeopenresearch.org/articles/4-63)
+2. [CedricScherer](https://www.cedricscherer.com/2021/06/06/visualizing-distributions-with-raincloud-plots-and-how-to-create-them-with-ggplot2/)
+3. [TDS](https://towardsdatascience.com/making-it-rain-with-raincloud-plots-496c39a2756f)   
