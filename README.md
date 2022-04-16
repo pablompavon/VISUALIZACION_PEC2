@@ -93,7 +93,7 @@ El desorden excesivo hace que la figura sea ilegible. Se recomienda descartar la
 Raincloud plot - Gráfico de nubes de lluvia
 
 ### Origen:
-Se trata de una combinación de gráficos que existían previamente, por lo tanto su origen no está claro. El paper principal es muy reciente, del año 2019 y revisado en 2021, y se cita en las fuentes empleadas; aunque en él citan ejemplos similares anteriores
+Se trata de una combinación de gráficos que existían previamente, por lo tanto su origen no está claro. El paper principal es muy reciente, del año 2019 y revisado en 2021, y se cita en las fuentes empleadas; aunque en él se citan ejemplos anteriores que siguen un planteamiento similar como: Ellison 1993, Hintze 1998, Wilson 2018, etc.
 
 Nace de la necesidad de disponer de visualizaciones que transmitan de manera precisa y transparente los aspectos clave de los efectos estadísticos y los datos sin procesar con una distorsión mínima. Los enfoques anteriores, como trazar diagramas de barras de mediana o media condicional junto con barras de error, han sido criticados por distorsionar el tamaño del efecto, ocultar patrones subyacentes en los datos sin procesar y oscurecer los supuestos en los que se basan las pruebas estadísticas más utilizadas. Esto es un enfoque de visualización de datos que supera estos problemas, brindando la máxima información estadística y preservando la naturaleza deseada de "inferencia de un vistazo" de los diagramas de barras y otros dispositivos de visualización similares. 
 
